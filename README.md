@@ -4,7 +4,7 @@
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
-  
+
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
     <p align="center">
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
@@ -25,6 +25,15 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A NestJS RESTful APIs sample project, including:
+
+- Restful APIs
+- NestJS Feature Enhancement Assignment
+- Event Entity, Users Entity
+- Create a new task
+- Retrieve a task by its id
+- Delete a task by its id
+- MergeAll - a method to merge all overlapping events below to a user. For those event, will invite all members in each event.
 
 ## Installation
 
@@ -54,20 +63,24 @@ $ npm run test
 # e2e tests
 $ npm run test:e2e
 
-# test coverage
-$ npm run test:cov
 ```
 
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+## Reference
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- [The official Nestjs documentation](https://docs.nestjs.com/first-steps)
+- [Unit testing NestJS applications with Jest](https://blog.logrocket.com/unit-testing-nestjs-applications-with-jest/)
+- [ts-mockito: Mocking library for TypeScript inspired by http://mockito.org/](https://github.com/NagRock/ts-mockito)
+- [Modern Full-Stack Development with Nest.js, React, TypeScript, and MongoDB: Part 1](https://auth0.com/blog/modern-full-stack-development-with-nestjs-react-typescript-and-mongodb-part-1/), [Part 2](https://auth0.com/blog/modern-full-stack-development-with-nestjs-react-typescript-and-mongodb-part-2/)
+- [Code with Hugo - Jest Full and Partial Mock/Spy of CommonJS and ES6 Module Imports](https://codewithhugo.com/jest-mock-spy-module-import/)
+- There is a collection of courses from [https://wanago.io/](https://wanago.io/) which is very helpful for building applications with NestJS:
+  - [API with NestJS](https://wanago.io/courses/api-with-nestjs/)
+  - [Series: Node.js TypeScript](https://wanago.io/courses/node-js-typescript/)
+  - [Series: JavaScript testing tutorial](https://wanago.io/courses/javascript-testing-tutorial/)
 
 ## License
 
-  Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
